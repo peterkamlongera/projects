@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../ffa-beta"
+		},
+		{
+			"path": "../../../BYN"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "projects"
+	}
+}
