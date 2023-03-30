@@ -1,13 +1,8 @@
 // Query Selectors
-const input = document.getElementById("to-do-task");
-const addItem = document.getElementById("to-do-list");
 const appendItem = document.getElementById("to-do-list-container");
-const removeItem = document.getElementById("to-do-list-item");
 
 // Event Listeners
-addItem.addEventListener("click", newTask());
 appendItem.addEventListener("click", newTask());
-removeItem.addEventListener("click", removeTask());
 
 // OnClick Functions
 function newTask() {
@@ -19,12 +14,18 @@ function newTask() {
    appendItem.appendChild(newListItem).appendChild(listItemCheckbox).setAttribute("id", "checkbox");
 }
 
-function deleteTask() {
-   var getCheckedItems = document.getElementById("checkbox");
-   var listedItems = document.getElementById("tdl");
-   console.log(listedItems);
+function deleteTask() {   
+   const items = document.querySelectorAll('li input[type="checkbox"]:checked');
+   items.forEach(element => {
+      const listItem = element.closest('li');
+      listItem.remove();
+   })
+}
 
-   if (getCheckedItems.checked) {
-      listedItems.removeChild(getCheckedItems)
-   }
+function deleteAllTasks() {   
+   const items = document.querySelectorAll('li input[type="checkbox"]');
+   items.forEach(element => {
+      const listItem = element.closest('li');
+      listItem.remove();
+   })
 }
