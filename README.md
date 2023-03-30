@@ -1,6 +1,6 @@
-# Personal Portfolio
+# Peter K's Project Portfolio
 
-This is my personal portfolio, where I showcase my skills and experience in software development. It contains a collection of projects I've worked on, including websites, web applications, and command line tools, using a variety of technologies such as JavaScript, HTML, CSS, Node.js, SQL, Jest, TypeScript, and more.
+This is my personal portfolio of projects, where I showcase my growing skills and experience in software development. It contains a collection of projects I've worked on, including websites, web applications, and command line tools, using a variety of technologies such as JavaScript, HTML, CSS, Node.js, SQL, Jest, TypeScript, and more.
 
 ## **Level 1 - Simple**
 
