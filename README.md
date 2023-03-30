@@ -40,4 +40,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium convallis m
 
 ## **Conclusion**
 
-I hope this portfolio demonstrates my expanding repertoire of skills in software development, and my ability to tackle complex technical challenges. If you have any questions or would like to get in touch, feel free to contact me at peterkamlongera@gmail.com or visit my portfolio website for more projects I've worked on @ [Peter Kamlongera](https://https://peterkamlongera-974dc.web.app/ "Peter Kamlongera")
+I hope this portfolio demonstrates my expanding repertoire of skills in software development, and my ability to tackle complex technical challenges. If you have any questions or would like to get in touch, feel free to contact me at peterkamlongera@gmail.com or visit my portfolio website for more projects I've worked on @ [Peter Kamlongera](https://peterkamlongera-974dc.web.app/ "Peter Kamlongera")
